@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "The effects of sham hypnosis techniques",
-  "description": "This dataset comprises EEG recordings from 52 participants (39 females) investigating the effects of sham hypnosis techniques using a 2×2 balanced placebo design. Participants underwent four experimental conditions involving conventional and placebo (unconventional) hypnotic inductions presented as either hypnosis or relaxation, with brain activity recorded using 64-channel EEG during baseline and experimental blocks. The study examines how expectancy and framing influence the neurophysiological response to hypnotic inductions.",
-  "methods_description": "Brain electrophysiological activity was recorded from 52 participants using a 64-channel EasyCap system from Brain Products. The protocol consisted of 5 minutes of closed-eyes rest (Pre-hypnosis Baseline), four experimental blocks with randomized exposure to conventional or unconventional hypnotic inductions presented as either hypnosis or control/relaxation, and 5 minutes of closed-eyes rest (Post-hypnosis Baseline).",
+  "description": "This dataset comprises EEG recordings from 52 participants (39 females) investigating the effects of sham hypnosis techniques using a 2×2 balanced placebo design. Participants underwent four experimental conditions involving conventional and unconventional hypnotic inductions presented as either hypnosis or relaxation control, with brain activity recorded using 64-channel EEG during baseline and experimental blocks. The study examines how expectancy and framing influence the neurophysiological response to hypnotic inductions.",
+  "methods_description": "Brain electrophysiological activity was recorded from 52 participants using a 64-channel EasyCap system from Brain Products. The protocol consisted of 5 minutes of closed-eyes rest baseline, four experimental blocks with randomized exposure to conventional or unconventional hypnotic inductions framed as either hypnosis or relaxation control, followed by 5 minutes of post-hypnosis closed-eyes rest.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -34,13 +34,23 @@
       "term": "expectancy"
     },
     {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "Hypnosis",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D006990"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
       "term": "balanced placebo design"
     },
     {
-      "term": "brain electrophysiology"
-    },
-    {
-      "term": "sham hypnosis"
+      "term": "expectancy effects"
     }
   ],
   "related_identifiers": [
