@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "The effects of sham hypnosis techniques",
+  "description": "This dataset comprises EEG recordings from 52 participants (39 females) investigating the effects of sham hypnosis techniques using a 2×2 balanced placebo design. Participants underwent four experimental conditions involving conventional and placebo (unconventional) hypnotic inductions presented as either hypnosis or relaxation, with brain activity recorded using 64-channel EEG during baseline and experimental blocks. The study examines how expectancy and framing influence the neurophysiological response to hypnotic inductions.",
+  "methods_description": "Brain electrophysiological activity was recorded from 52 participants using a 64-channel EasyCap system from Brain Products. The protocol consisted of 5 minutes of closed-eyes rest (Pre-hypnosis Baseline), four experimental blocks with randomized exposure to conventional or unconventional hypnotic inductions presented as either hypnosis or control/relaxation, and 5 minutes of closed-eyes rest (Post-hypnosis Baseline).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,12 +20,30 @@
     "Anna Lutoskin": {},
     "Yeganeh Farahzadi": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004572.v1.3.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "hypnosis"
+    },
+    {
+      "term": "placebo effect"
+    },
+    {
+      "term": "expectancy"
+    },
+    {
+      "term": "balanced placebo design"
+    },
+    {
+      "term": "brain electrophysiology"
+    },
+    {
+      "term": "sham hypnosis"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004572",
       "identifier_type": "URL",
@@ -48,6 +68,11 @@
       "identifier": "10.1038/s41598-024-56633-x",
       "identifier_type": "DOI",
       "relation_type": "IsSupplementedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004572.v1.3.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -57,12 +82,12 @@
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "46.8 GB (1551 files)"
   ],
   "formats": [
     ".csv",
@@ -71,38 +96,8 @@
     ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset comprises EEG recordings from 52 participants (39 females) investigating the neurophysiological effects of sham hypnosis techniques using a 2×2 balanced placebo design. Participants underwent four experimental conditions involving conventional hypnotic inductions and unconventional (placebo) inductions, each presented as either hypnosis or relaxation control, with pre- and post-intervention baseline recordings. Brain electrophysiological activity was recorded using 64-channel EEG to examine how expectancy and framing influence neural responses to hypnotic inductions.",
-  "methods_description": "EEG data were collected using a 64-channel EasyCap system from Brain Products. The study protocol consisted of a 5-minute closed-eyes baseline, four experimental blocks with different hypnotic induction conditions presented in randomized order within a 2×2 balanced placebo design, and a final 5-minute closed-eyes baseline.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "hypnosis"
-    },
-    {
-      "term": "placebo effect"
-    },
-    {
-      "term": "expectancy"
-    },
-    {
-      "term": "electrophysiology"
-    },
-    {
-      "term": "balanced placebo design"
-    },
-    {
-      "term": "sham hypnosis"
-    },
-    {
-      "term": "neuroscience"
-    },
-    {
-      "term": "neuroimaging"
-    }
-  ],
-  "source_hash": "75f350897d9c5cdf9c79d37c3c3c8908d0e1aab7b01f229c7fcbbcee84f01004"
+  "source_hash": "51dba5e19c88b0c46b4958779c1bc4006b6c56701fe6f6082eab20ffe92d39a7"
 }
