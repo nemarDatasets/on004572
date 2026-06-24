@@ -1,36 +1,108 @@
 {
   "version": "2.0",
-  "dataset_id": "on004572",
-  "source": "openneuro",
-  "source_id": "ds004572",
+  "pipeline_stage": "enriched",
   "title": "The effects of sham hypnosis techniques",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
-    "Zoltan Kekecs": {},
+    "Zoltan Kekecs": {
+      "orcid": "0000-0001-9247-9781",
+      "affiliations": [
+        {
+          "name": "Institute of Psychology ELTE, Eötvös Lorand University  Budapest Hungary"
+        }
+      ]
+    },
     "Kyra Girán": {},
     "Vanda Vizkievicz": {},
     "Anna Lutoskin": {},
     "Yeganeh Farahzadi": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004572.v1.3.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004572",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004572",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.17605/OSF.IO/WVHDA",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1111/psyp.70183",
+      "identifier_type": "DOI",
+      "relation_type": "IsSupplementedBy"
+    },
+    {
+      "identifier": "10.1038/s41598-024-56633-x",
+      "identifier_type": "DOI",
+      "relation_type": "IsSupplementedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "Hungarian National Research, Development and Innovation Office (NKFIH, Grant No.: FK 132248)"
+      "funder_name": "Hungarian National Research, Development and Innovation Office",
+      "award_number": "FK 132248"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises EEG recordings from 52 participants (39 females) investigating the neurophysiological effects of sham hypnosis techniques using a 2×2 balanced placebo design. Participants underwent four experimental conditions involving conventional hypnotic inductions and unconventional (placebo) inductions, each presented as either hypnosis or relaxation control, with pre- and post-intervention baseline recordings. Brain electrophysiological activity was recorded using 64-channel EEG to examine how expectancy and framing influence neural responses to hypnotic inductions.",
+  "methods_description": "EEG data were collected using a 64-channel EasyCap system from Brain Products. The study protocol consisted of a 5-minute closed-eyes baseline, four experimental blocks with different hypnotic induction conditions presented in randomized order within a 2×2 balanced placebo design, and a final 5-minute closed-eyes baseline.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "hypnosis"
+    },
+    {
+      "term": "placebo effect"
+    },
+    {
+      "term": "expectancy"
+    },
+    {
+      "term": "electrophysiology"
+    },
+    {
+      "term": "balanced placebo design"
+    },
+    {
+      "term": "sham hypnosis"
+    },
+    {
+      "term": "neuroscience"
+    },
+    {
+      "term": "neuroimaging"
+    }
+  ],
+  "source_hash": "75f350897d9c5cdf9c79d37c3c3c8908d0e1aab7b01f229c7fcbbcee84f01004"
 }
