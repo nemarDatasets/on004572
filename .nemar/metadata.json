@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "The effects of sham hypnosis techniques",
-  "description": "This dataset comprises EEG recordings from 52 participants (39 females) investigating the effects of sham hypnosis techniques using a 2×2 balanced placebo design. Participants underwent four experimental conditions involving conventional and unconventional hypnotic inductions presented as either hypnosis or relaxation control, with brain activity recorded using 64-channel EEG during baseline and experimental blocks. The study examines how expectancy and framing influence the neurophysiological response to hypnotic inductions.",
-  "methods_description": "Brain electrophysiological activity was recorded from 52 participants using a 64-channel EasyCap system from Brain Products. The protocol consisted of 5 minutes of closed-eyes rest baseline, four experimental blocks with randomized exposure to conventional or unconventional hypnotic inductions framed as either hypnosis or relaxation control, followed by 5 minutes of post-hypnosis closed-eyes rest.",
+  "description": "EEG recordings from 52 participants (39 female) who took part in a 2x2 balanced placebo study of hypnosis. Each participant received conventional and unconventional (placebo) hypnotic inductions, each framed either as hypnosis or as a control relaxation technique. Data were recorded with a 64-channel EasyCap system and include pre- and post-hypnosis closed-eyes resting baselines. The dataset supports investigation of how framing affects hypnotic depth and its electrophysiological correlates.",
+  "methods_description": "64-channel Brain Products EasyCap EEG was recorded during 5 minutes of closed-eyes rest, then four randomized experimental blocks (conventional or unconventional induction, each framed as hypnosis or control), then another 5 minutes of closed-eyes rest. Detailed procedures are in the OSF pre-registration.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -25,32 +25,21 @@
       "term": "EEG"
     },
     {
-      "term": "hypnosis"
-    },
-    {
-      "term": "placebo effect"
-    },
-    {
-      "term": "expectancy"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
       "term": "Hypnosis",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D006990"
     },
     {
-      "term": "electrophysiology"
+      "term": "placebo effect"
     },
     {
       "term": "balanced placebo design"
     },
     {
-      "term": "expectancy effects"
+      "term": "hypnotic depth"
+    },
+    {
+      "term": "resting state"
     }
   ],
   "related_identifiers": [
@@ -60,14 +49,9 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004572",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.17605/OSF.IO/WVHDA",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "References"
     },
     {
       "identifier": "10.1111/psyp.70183",
@@ -83,11 +67,16 @@
       "identifier": "10.18112/openneuro.ds004572.v1.3.2",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004572",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
-      "funder_name": "Hungarian National Research, Development and Innovation Office",
+      "funder_name": "Hungarian National Research, Development and Innovation Office (NKFIH)",
       "award_number": "FK 132248"
     }
   ],
@@ -97,7 +86,7 @@
     "eeg"
   ],
   "sizes": [
-    "46.8 GB (1551 files)"
+    "43.56 GB (1551 files)"
   ],
   "formats": [
     ".csv",
